@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #080808;
+  --panel: #111111;
+  --border: #292929;
+  --primary: #FFFFFF;
+  --secondary: #A0A0A0;
+}
+
+body{
+  background: var(--bg);
+}
+
+/* subtle rounded panels */
+.card{
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
